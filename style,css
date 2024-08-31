@@ -1,0 +1,56 @@
+/* progress bar start*/
+#free-shipping-progress-container {
+    max-width: 100%;
+    padding: 8px; /* Adjust padding as per your design */
+    background-color: #ffffff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow effect */
+}
+
+#free-shipping-progress-box {
+    padding: 10px; /* Adjust padding as per your design */
+}
+
+#free-shipping-progress-title {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: normal; /* Non-bold title */
+}
+
+#free-shipping-progress-title strong {
+    font-weight: bold; /* Bold amount */
+}
+
+#free-shipping-progress-bar-background {
+    height: 19px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#free-shipping-progress-bar {
+    height: 100%;
+    width: 100%; /* Always full width */
+    background: linear-gradient(to right, #307650 0%, #C6D2C6 0%); /* Initial gradient */
+}
+
+@media (max-width: 424px) {
+    #free-shipping-progress-container {
+        padding: 0;
+        border-radius: 0;
+        box-shadow: none;
+        background-color: transparent; /* Remove background color */
+    }
+    #free-shipping-progress-box {
+        padding: 0;
+    }
+    #free-shipping-progress-bar-background {
+        border-radius: 0; /* Remove border-radius on mobile */
+        height: 19px; /* Adjust height as per your design */
+        overflow: hidden; /* Ensure overflow is hidden */
+    }
+}
+
+
+/* end */
